@@ -1,0 +1,12 @@
+# Input file for chunked DAXPY homework
+# Format:
+# Variable = Value
+
+N = 100
+chunk_size = 8
+
+a = 2.0
+x_val = 3.0
+y_val = 4.0
+
+output_file = daxpy_chunks.h5

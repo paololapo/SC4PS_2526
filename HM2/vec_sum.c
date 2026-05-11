@@ -1,3 +1,31 @@
+/*
+ * Program: Linear Combination of Vectors
+ *
+ * Description:
+ * This program computes the expression:
+ *
+ *     d[i] = a * x[i] + y[i]
+ *
+ * for all elements of three dynamically allocated arrays x, y, and d.
+ * The array size N, the scalar value a, and the initial values for x and y
+ * are provided as command-line arguments.
+ *
+ * The program initializes all elements of x and y with the given values,
+ * computes the result for each element, and verifies that every computed
+ * value matches the expected result within a small floating-point tolerance.
+ *
+ * Usage:
+ *     ./program <N> <a> <x_val> <y_val>
+ *
+ * Example:
+ *     ./program 1000 2.0 3.0 4.0
+ *
+ * This computes:
+ *     d[i] = 2.0 * 3.0 + 4.0 = 10.0
+ *
+ * for all i from 0 to N - 1.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
